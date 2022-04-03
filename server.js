@@ -17,7 +17,7 @@ const dbOptions = {
 };
 
 const corsOptions = {
- origin: "http://localhost:3000",
+ origin: "https://precious-puppy-3f9ae0.netlify.app/",
  credentials: true, //access-control-allow-credentials:true
  optionSuccessStatus: 200,
 };
