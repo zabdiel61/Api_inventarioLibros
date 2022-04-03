@@ -31,7 +31,7 @@ app.use(express.json());
 
 //rutas
 app.get("/", (req, res) => {
- res.send("Bienvenido a mi Api");
+ res.send("Api Rest inventario libros Ricaldone");
 });
 app.use("/api", routes);
 
