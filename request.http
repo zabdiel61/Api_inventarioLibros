@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "libro 2",
+    "autor": "autor libro 2",
+    "edicion": 5
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "libro 3",
+    "autor": "autor libro 3",
+    "edicion": 6
+}
