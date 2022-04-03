@@ -8,12 +8,14 @@ const routes = require("./routes");
 const app = express();
 app.set("port", process.env.PORT || 9000);
 const dbOptions = {
- host: "localhost",
+ host: "us-cdbr-east-05.cleardb.net",
  port: 3306,
- user: "root",
- password: "Pa$$w0rd",
- database: "inventariolibros",
+ user: "b9236bf3599fa7",
+ password: "08da3add",
+ database: "heroku_92c583a6a747576",
 };
+
+//mysql://b9236bf3599fa7:08da3add@us-cdbr-east-05.cleardb.net/heroku_92c583a6a747576?reconnect=true
 
 //midlewares
 app.use(myconn(mysql, dbOptions, "single"));
